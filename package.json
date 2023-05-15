@@ -21,8 +21,8 @@
     "jsdom": "21.1.0",
     "next": "13.4.2",
     "prettier": "2.8.8",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.3.0-canary-4cd706566-20230512",
+    "react-dom": "^18.3.0-canary-4cd706566-20230512",
     "typescript": "5.0.4",
     "vitest": "0.30.1"
   }
