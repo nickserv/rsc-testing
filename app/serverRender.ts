@@ -2,6 +2,7 @@ import { RenderOptions, render } from '@testing-library/react'
 import React from 'react'
 import { renderToPipeableStream } from 'react-dom/server'
 import { Writable } from 'stream'
+import Layout from './layout'
 
 class HtmlWritable extends Writable {
   chunks = new Array<any>()
@@ -49,5 +50,5 @@ export default async function serverRender(
     })
   )
 
-  return render(ui, { hydrate: true, ...options })
+  return render(ui, { hydrate: true, wrapper: Layout, ...options })
 }
