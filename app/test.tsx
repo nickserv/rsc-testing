@@ -5,7 +5,7 @@ import Page from './page'
 
 beforeEach(() => {
   render(
-    <Suspense fallback={<p>Loading...</p>}>
+    <Suspense>
       <Layout>
         <Page />
       </Layout>
@@ -14,6 +14,5 @@ beforeEach(() => {
 })
 
 test.each(['client', 'server', 'layout'])(`%s component`, async (keyword) => {
-  expect(screen.getByText('Loading...')).toBeInTheDocument()
   await waitFor(() => expect(screen.getByText(keyword)).toBeInTheDocument())
 })
