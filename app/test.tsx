@@ -7,6 +7,7 @@ test.each(['client', 'server', 'layout'])(`%s component`, async (keyword) => {
   render(
     <Suspense>
       <Layout>
+        {/* @ts-expect-error Needs https://github.com/DefinitelyTyped/DefinitelyTyped/pull/65135 */}
         <Page />
       </Layout>
     </Suspense>
