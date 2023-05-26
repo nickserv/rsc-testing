@@ -3,7 +3,7 @@ import { Suspense } from 'react'
 import Layout from './layout'
 import Page from './page'
 
-beforeEach(() => {
+test.each(['client', 'server', 'layout'])(`%s component`, async (keyword) => {
   render(
     <Suspense>
       <Layout>
@@ -11,8 +11,6 @@ beforeEach(() => {
       </Layout>
     </Suspense>
   )
-})
 
-test.each(['client', 'server', 'layout'])(`%s component`, async (keyword) => {
   await waitFor(() => expect(screen.getByText(keyword)).toBeInTheDocument())
 })
