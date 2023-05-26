@@ -1,9 +1,9 @@
-import { screen, render, waitFor } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
+import { Suspense } from 'react'
 import Layout from './layout'
 import Page from './page'
-import { Suspense } from 'react'
 
-beforeEach(() =>
+beforeEach(() => {
   render(
     <Suspense fallback={<p>Loading...</p>}>
       <Layout>
@@ -11,7 +11,7 @@ beforeEach(() =>
       </Layout>
     </Suspense>
   )
-)
+})
 
 test.each(['client', 'server', 'layout'])(`%s component`, async (keyword) => {
   expect(screen.getByText('Loading...')).toBeInTheDocument()
