@@ -1,9 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an example [Next.js](https://nextjs.org/) project using
+[React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
+and [React Testing Library](https://testing-library.com/react).
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run tests:
+
+```bash
+npm install-test
+```
+
+You can also run the Next.js server:
 
 ```bash
 npm run dev
