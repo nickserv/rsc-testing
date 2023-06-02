@@ -3,7 +3,7 @@ import {Suspense} from 'react'
 import Layout from './layout'
 import Page from './page'
 
-test.each(['client', 'server', 'layout'])(`%s component`, async keyword => {
+test.each(['client', 'server', 'layout'])(`%s component`, keyword => {
   render(
     <Suspense>
       <Layout>
@@ -12,5 +12,5 @@ test.each(['client', 'server', 'layout'])(`%s component`, async keyword => {
     </Suspense>,
   )
 
-  await screen.findByText(keyword)
+  return screen.findByText(keyword)
 })
