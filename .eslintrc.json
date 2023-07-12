@@ -1,9 +1,9 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:jest/style",
-    "plugin:jest-dom/recommended",
-    "plugin:testing-library/react",
-    "prettier"
-  ]
+	"extends": [
+		"next/core-web-vitals",
+		"plugin:jest/style",
+		"plugin:jest-dom/recommended",
+		"plugin:testing-library/react",
+		"prettier"
+	]
 }

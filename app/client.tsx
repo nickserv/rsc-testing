@@ -1,5 +1,5 @@
-'use client'
+"use client";
 
 export default function Client() {
-  return <p>client</p>
+	return <p>client</p>;
 }
