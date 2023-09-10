@@ -27,6 +27,7 @@
 		"prettier-config-a11y": "^1.1.2",
 		"react": "canary",
 		"react-dom": "canary",
+		"server-only": "^0.0.1",
 		"typescript": "^5.0.4",
 		"vitest": "^0.31.0"
 	}
