@@ -2,6 +2,9 @@ This is an example [Next.js](https://nextjs.org/) project using
 [React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
 and [React Testing Library](https://testing-library.com/react).
 
+It follows my [workarounds for async React Server Components
+](https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305).
+
 ## Getting Started
 
 Install dependencies and run tests:
