@@ -10,6 +10,8 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"@swc/core": "^1.3.83",
+		"@swc/jest": "^0.2.29",
 		"@testing-library/jest-dom": "^6.1.3",
 		"@testing-library/react": "^14.0.0",
 		"@types/jest": "^29.5.4",
