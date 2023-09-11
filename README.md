@@ -1,9 +1,11 @@
 This is an example [Next.js](https://nextjs.org/) project testing
 [React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
-with [React Testing Library](https://testing-library.com/react) in [Vitest](https://vitest.dev/) (see also [Jest](https://github.com/nickmccurdy/rsc-testing/tree/jest)).
+with [React Testing Library](https://testing-library.com/react) in [Vitest](https://vitest.dev/).
 
 It follows my [workarounds for async React Server Components
 ](https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305).
+
+Using Jest? See the [Jest branch](https://github.com/nickmccurdy/rsc-testing/tree/jest).
 
 ## Getting Started
 
