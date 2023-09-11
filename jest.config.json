@@ -1,7 +1,5 @@
- {
-    "testEnvironment": "jsdom",
-    "setupFilesAfterEnv": [
-      "@testing-library/jest-dom"
-    ],
-    "resetMocks": true
-  }
+{
+	"testEnvironment": "jsdom",
+	"setupFilesAfterEnv": ["<rootDir>/app/setupTests.ts"],
+	"resetMocks": true
+}

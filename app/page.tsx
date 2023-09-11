@@ -1,10 +1,11 @@
-import Client from './client'
+import "server-only";
+import Client from "./client";
 
 export default async function Home() {
-  return (
-    <>
-      <p>server</p>
-      <Client />
-    </>
-  )
+	return (
+		<>
+			<p>server</p>
+			<Client />
+		</>
+	);
 }
