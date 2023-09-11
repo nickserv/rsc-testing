@@ -5,6 +5,8 @@ with [React Testing Library](https://testing-library.com/react) in [Jest](https:
 It follows my [workarounds for async React Server Components
 ](https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305).
 
+Using Vitest? See the [main branch](https://github.com/nickmccurdy/rsc-testing/tree/main).
+
 ## Getting Started
 
 Install dependencies and run tests:
