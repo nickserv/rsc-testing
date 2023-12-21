@@ -36,5 +36,14 @@
 	"overrides": {
 		"react": "canary",
 		"react-dom": "canary"
-	}
+	},
+	"eslintConfig": {
+		"extends": [
+			"next/core-web-vitals",
+			"plugin:jest/style",
+			"plugin:jest-dom/recommended",
+			"plugin:testing-library/react"
+		]
+	},
+	"prettier": "prettier-config-a11y"
 }

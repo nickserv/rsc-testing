@@ -6,7 +6,6 @@ const createJestConfig = nextJest({ dir: "." });
 const config = {
 	testEnvironment: "jsdom",
 	setupFilesAfterEnv: ["<rootDir>/app/setupTests.ts"],
-	resetMocks: true,
 };
 
 module.exports = createJestConfig(config);
