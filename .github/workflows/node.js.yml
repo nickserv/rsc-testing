@@ -26,4 +26,4 @@ jobs:
       - run: npm run lint --dir .
       - run: npx tsc
       - run: npm run build
-      - run: npm test
+      - run: npx jest
