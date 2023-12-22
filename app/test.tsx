@@ -1,9 +1,12 @@
+/// <reference types="vitest/globals" />
 import { render, screen } from "@testing-library/react";
 import { Suspense } from "react";
 import Layout from "./layout";
 import Page from "./page";
 
-test.each(["client", "server", "layout"])(`%s component`, (keyword) => {
+vi.mock("server-only", () => ({}));
+
+test.each(["client", "server", "layout"])("%s component", async (keyword) => {
 	render(
 		<Suspense>
 			<Layout>
@@ -12,5 +15,5 @@ test.each(["client", "server", "layout"])(`%s component`, (keyword) => {
 		</Suspense>,
 	);
 
-	return screen.findByText(keyword);
+	await screen.findByText(keyword);
 });

@@ -1,5 +1,5 @@
 {
-	"name": "my-app",
+	"name": "rsc-testing",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -10,24 +10,37 @@
 		"test": "vitest"
 	},
 	"dependencies": {
-		"@testing-library/jest-dom": "^5.11.4",
+		"next": "^14.0.0",
+		"react": "canary",
+		"react-dom": "canary",
+		"server-only": "^0.0.1"
+	},
+	"devDependencies": {
 		"@testing-library/react": "^14.0.0",
 		"@types/node": "^20.1.4",
 		"@types/react": "^18.2.6",
 		"@types/react-dom": "^18.2.4",
 		"@vitejs/plugin-react-swc": "^3.3.1",
 		"eslint": "^8.40.0",
-		"eslint-config-next": "^13.4.2",
+		"eslint-config-next": "^14.0.0",
 		"eslint-plugin-jest": "^27.2.1",
-		"eslint-plugin-jest-dom": "^4.0.3",
-		"eslint-plugin-testing-library": "^5.11.0",
+		"eslint-plugin-testing-library": "^6.0.1",
 		"jsdom": "^22.0.0",
-		"next": "^13.4.2",
 		"prettier": "^3.0.0",
 		"prettier-config-a11y": "^1.1.2",
-		"react": "canary",
-		"react-dom": "canary",
 		"typescript": "^5.0.4",
-		"vitest": "^0.31.0"
-	}
+		"vitest": "^0.34.4"
+	},
+	"overrides": {
+		"react": "canary",
+		"react-dom": "canary"
+	},
+	"eslintConfig": {
+		"extends": [
+			"next/core-web-vitals",
+			"plugin:jest/style",
+			"plugin:testing-library/react"
+		]
+	},
+	"prettier": "prettier-config-a11y"
 }

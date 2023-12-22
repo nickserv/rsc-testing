@@ -1,3 +1,4 @@
+import "server-only";
 import Client from "./client";
 
 export default async function Home() {
