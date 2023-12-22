@@ -2,7 +2,7 @@ This is an example [Next.js](https://nextjs.org/) project testing
 [React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
 with [React Testing Library](https://testing-library.com/react) in [Jest](https://jestjs.io/).
 
-It follows my [workarounds for async React Server Components
+It follows my [workarounds for React Server Components
 ](https://github.com/testing-library/react-testing-library/issues/1209#issuecomment-1569813305).
 
 Using Vitest? See the [main branch](https://github.com/nickmccurdy/rsc-testing/tree/main).
