@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Don't using screen here will generate an empty snapshot 1`] = `<div />`;
+
+exports[`Having <Layout> here will generate an empty snapshot 1`] = `<div />`;
+
+exports[`Removing the <Layout> tag and calling screen generate a snapshot 1`] = `
+<div>
+  <p>
+    server
+  </p>
+  <p>
+    client
+  </p>
+</div>
+`;
+
+exports[`Removing theWithout <Layout> tag and calling screen generate a snapshot 1`] = `
+<div>
+  <p>
+    server
+  </p>
+  <p>
+    client
+  </p>
+</div>
+`;
+
+exports[`Without <Layout> tag and calling screen generate a snapshot 1`] = `
+<div>
+  <p>
+    server
+  </p>
+  <p>
+    client
+  </p>
+</div>
+`;
