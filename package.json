@@ -29,7 +29,7 @@
 		"prettier": "^3.0.0",
 		"prettier-config-a11y": "^1.1.2",
 		"typescript": "^5.0.4",
-		"vitest": "^0.34.4"
+		"vitest": "^2.0.5"
 	},
 	"overrides": {
 		"react": "canary",
