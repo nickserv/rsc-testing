@@ -14,25 +14,3 @@ exports[`Removing the <Layout> tag and calling screen generate a snapshot 1`] = 
   </p>
 </div>
 `;
-
-exports[`Removing theWithout <Layout> tag and calling screen generate a snapshot 1`] = `
-<div>
-  <p>
-    server
-  </p>
-  <p>
-    client
-  </p>
-</div>
-`;
-
-exports[`Without <Layout> tag and calling screen generate a snapshot 1`] = `
-<div>
-  <p>
-    server
-  </p>
-  <p>
-    client
-  </p>
-</div>
-`;
