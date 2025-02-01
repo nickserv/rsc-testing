@@ -3,40 +3,35 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev",
+		"dev": "next dev --turbopack",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
 		"test": "vitest"
 	},
 	"dependencies": {
-		"next": "^15.0.0-rc.0",
+		"next": "^15.1.6",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
 		"server-only": "^0.0.1"
 	},
 	"devDependencies": {
-		"@testing-library/react": "^15.0.7",
-		"@types/node": "^20.1.4",
-		"@types/react": "^18.2.6",
-		"@types/react-dom": "^18.2.4",
-		"@vitejs/plugin-react-swc": "^3.3.1",
-		"eslint": "^8.40.0",
-		"eslint-config-next": "^14.0.0",
-		"eslint-plugin-jest": "^27.2.1",
-		"eslint-plugin-testing-library": "^6.0.1",
-		"jsdom": "^22.0.0",
-		"prettier": "^3.0.0",
+		"@eslint/eslintrc": "^3.2.0",
+		"@testing-library/react": "^16.2.0",
+		"@types/node": "^22.13.0",
+		"@types/react": "^19.0.8",
+		"@types/react-dom": "^19.0.3",
+		"@vitejs/plugin-react-swc": "^3.7.2",
+		"eslint": "^9.19.0",
+		"eslint-config-next": "^15.1.6",
+		"eslint-plugin-jest": "^28.11.0",
+		"eslint-plugin-testing-library": "^7.1.1",
+		"jsdom": "^26.0.0",
+		"prettier": "^3.4.2",
 		"prettier-config-a11y": "^1.1.2",
-		"typescript": "^5.0.4",
-		"vitest": "^0.34.4"
-	},
-	"eslintConfig": {
-		"extends": [
-			"next/core-web-vitals",
-			"plugin:jest/style",
-			"plugin:testing-library/react"
-		]
+		"typescript": "^5.7.3",
+		"vite": "^6.0.11",
+		"vitest": "^3.0.4"
 	},
 	"prettier": "prettier-config-a11y",
 	"packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
