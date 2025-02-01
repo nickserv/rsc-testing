@@ -12,13 +12,13 @@ Using Jest? See the [Jest branch](https://github.com/nickmccurdy/rsc-testing/tre
 Install dependencies and run tests:
 
 ```bash
-npm install-test
+pnpm install-test
 ```
 
 You can also run the Next.js server:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
