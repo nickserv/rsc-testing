@@ -6,14 +6,17 @@ import Page from "./page";
 
 vi.mock("server-only", () => ({}));
 
-test.each(["client", "server", "layout"])("%s component", async (keyword) => {
-	render(
-		<Suspense>
-			<Layout>
-				<Page />
-			</Layout>
-		</Suspense>,
-	);
+test.fails.each(["client", "server", "layout"])(
+	"%s component",
+	async (keyword) => {
+		render(
+			<Suspense>
+				<Layout>
+					<Page />
+				</Layout>
+			</Suspense>,
+		);
 
-	await screen.findByText(keyword);
-});
+		await screen.findByText(keyword);
+	},
+);

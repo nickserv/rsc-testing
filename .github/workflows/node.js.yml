@@ -28,4 +28,3 @@ jobs:
       - run: pnpm tsc
       - run: pnpm build
       - run: pnpm test
-        continue-on-error: true
