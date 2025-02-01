@@ -11,8 +11,8 @@
 	},
 	"dependencies": {
 		"next": "^15.0.0-rc.0",
-		"react": "canary",
-		"react-dom": "canary",
+		"react": "19.0.0-rc-380f5d67-20241113",
+		"react-dom": "19.0.0-rc-380f5d67-20241113",
 		"server-only": "^0.0.1"
 	},
 	"devDependencies": {
@@ -32,8 +32,8 @@
 		"vitest": "^0.34.4"
 	},
 	"overrides": {
-		"react": "canary",
-		"react-dom": "canary"
+		"react": "$react",
+		"react-dom": "$react-dom"
 	},
 	"eslintConfig": {
 		"extends": [
