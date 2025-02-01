@@ -11,8 +11,8 @@
 	},
 	"dependencies": {
 		"next": "^15.0.0-rc.0",
-		"react": "19.0.0-rc-380f5d67-20241113",
-		"react-dom": "19.0.0-rc-380f5d67-20241113",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
 		"server-only": "^0.0.1"
 	},
 	"devDependencies": {
@@ -30,12 +30,6 @@
 		"prettier-config-a11y": "^1.1.2",
 		"typescript": "^5.0.4",
 		"vitest": "^0.34.4"
-	},
-	"pnpm": {
-		"overrides": {
-			"react": "$react",
-			"react-dom": "$react-dom"
-		}
 	},
 	"eslintConfig": {
 		"extends": [
